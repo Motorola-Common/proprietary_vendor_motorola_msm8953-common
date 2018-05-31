@@ -18,23 +18,23 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/motorola/potter/proprietary/vendor/bin/akmd09912:$(TARGET_COPY_OUT_VENDOR)/bin/akmd09912 \
     vendor/motorola/potter/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
-    vendor/motorola/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
+    vendor/motorola/potter/proprietary/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/potter/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/motorola/potter/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/motorola/potter/proprietary/vendor/bin/imsrcsd:$(TARGET_COPY_OUT_VENDOR)/bin/imsrcsd \
     vendor/motorola/potter/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/motorola/potter/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
-    vendor/motorola/potter/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
+    vendor/motorola/potter/proprietary/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
     vendor/motorola/potter/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/motorola/potter/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/motorola/potter/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/motorola/potter/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
-    vendor/motorola/potter/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/motorola/potter/proprietary/bin/ptt_socket_app:$(TARGET_COPY_OUT_VENDOR)/bin/ptt_socket_app \
     vendor/motorola/potter/proprietary/vendor/bin/qmi_motext_hook:$(TARGET_COPY_OUT_VENDOR)/bin/qmi_motext_hook \
     vendor/motorola/potter/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/motorola/potter/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/motorola/potter/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/motorola/potter/proprietary/bin/radish:system/bin/radish \
+    vendor/motorola/potter/proprietary/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/motorola/potter/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/motorola/potter/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/motorola/potter/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
@@ -52,9 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/potter/proprietary/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/potter/proprietary/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/potter/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
-    vendor/motorola/potter/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/motorola/potter/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/motorola/potter/proprietary/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/motorola/potter/proprietary/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/andsfCne.xml \
+    vendor/motorola/potter/proprietary/etc/cne/SwimConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/SwimConfig.xml \
     vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/motorola/potter/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -92,24 +92,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ice40.bin \
     vendor/motorola/potter/proprietary/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/motorola/potter/proprietary/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_1.3.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_2.1.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.0.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.2.bin \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv.img \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_1.3.tlv \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_2.1.tlv \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.0.tlv \
+    vendor/motorola/potter/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.2.tlv \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
     vendor/motorola/potter/proprietary/etc/firmware/sensorhubfw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sensorhubfw.bin \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
-    vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
+    vendor/motorola/potter/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
     vendor/motorola/potter/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
     vendor/motorola/potter/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/potter/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -139,7 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/potter/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_wlan_dictionary.dat \
-    vendor/motorola/potter/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/motorola/potter/proprietary/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/motorola/potter/proprietary/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
     vendor/motorola/potter/proprietary/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/motorola/potter/proprietary/lib/hw/camera.vendor.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
@@ -791,9 +791,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libSonyDualPDParam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyDualPDParam.so \
     vendor/motorola/potter/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
@@ -947,8 +947,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/motorola/potter/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/potter/proprietary/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/motorola/potter/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/motorola/potter/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
@@ -1164,12 +1164,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0_vendor.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/motorola/potter/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/motorola/potter/proprietary/vendor/lib64/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalarmservice_jni.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
-    vendor/motorola/potter/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/motorola/potter/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
@@ -1180,15 +1180,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag_system.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
-    vendor/motorola/potter/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
+    vendor/motorola/potter/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/motorola/potter/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/motorola/potter/proprietary/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/motorola/potter/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/motorola/potter/proprietary/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/motorola/potter/proprietary/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/motorola/potter/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
-    vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/motorola/potter/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/motorola/potter/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/potter/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/motorola/potter/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
