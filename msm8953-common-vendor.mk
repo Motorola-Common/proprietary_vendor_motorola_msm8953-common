@@ -668,6 +668,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     ConnectivityExt \
+    qcrilhook \
     QPerformance \
     QtiTelephonyServicelibrary \
     cneapiclient \
