@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8953-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/msm8953-common/proprietary/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
     vendor/motorola/msm8953-common/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
-    vendor/motorola/msm8953-common/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/msm8953-common/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/msm8953-common/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/msm8953-common/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
@@ -73,12 +72,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8953-common/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/msm8953-common/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/msm8953-common/proprietary/lib/libjson.so:system/lib/libjson.so \
-    vendor/motorola/msm8953-common/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/msm8953-common/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/motorola/msm8953-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/msm8953-common/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/msm8953-common/proprietary/lib/libmot_afd.so:system/lib/libmot_afd.so \
-    vendor/motorola/msm8953-common/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
     vendor/motorola/msm8953-common/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/msm8953-common/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
     vendor/motorola/msm8953-common/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
